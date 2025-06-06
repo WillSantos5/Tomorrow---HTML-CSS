@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-* {
-    outline: 1px solid   red;
-}
-
 /* Primeira Página */
 .pagina-principal {
     width: 100%;
@@ -95,4 +90,53 @@
 
 .b2 {
     padding: 10px 30px; /* Padding para o botão "Order Now" */
+}
+
+.principal3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.texto3{
+width: 700px;
+height: 150px;
+top: 210px;
+left: 35px;
+}
+
+.titulo3{
+   font-family: "Poppins", sans-serif; 
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 32px; 
+   margin-top: 150px;
+}
+.titulo3 span{
+   color:  #FFB800;
+}
+
+.descricao3{ 
+  font-family: "Poppins";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: -30px;
+  color: #4A4A4A;
+}
+
+.tempero{
+    
+    width: 640px;
+    top: 385px;
+}
+
+.macarrao{
+    
+    width: 690px;
+    top: 50px;
+    left: 744px;
+    margin-top: 150px;
 }
