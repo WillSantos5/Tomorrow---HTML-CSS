@@ -1,7 +1,4 @@
 /*==========Página-Um==========*/
-*{
-    outline: 1px solid red;
-}
 .pagina-principal {
     width: 100%;
     height: 100vh;
@@ -235,6 +232,9 @@
 
     .botao-faz-pedido {
         margin: -15px;
+        line-height: 17px;
+        font-size: 15px;
+        padding: 5px 10px;
     }
     .preco-produto {
         margin-right: 18px;
@@ -406,20 +406,43 @@
     margin-top: -5px;
 }
 
-.imagem-lauryn-hill {
+.imagem-lauryn-hill, .imagem-mariah-carey, .imagem-rihanna {
     width: 175px;
     height: 175px;
     border-radius: 175px;
 }
 
-.imagem-mariah-carey {
-    width: 175px;
-    height: 175px;
-    border-radius: 100px;
-}
+@media(min-width: 1980px){
 
-.imagem-rihanna {
-    width: 175px;
-    height: 175px;
-    border-radius: 100px;
+    .titulo-central-pagina-quatro{
+        height: 50px;
+        line-height: 45px;
+    }
+
+    .caixa-de-texto-pagina-quatro p {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    .imagem-lauryn-hill, .imagem-mariah-carey, .imagem-rihanna {
+        width: 240.625px;
+        height: 240.625px;
+    }
+
+    .estrela p {
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    .perfil-usuario h3 {
+        font-size: 17px;
+        height: 20px;
+    }
+
+    .comentario {
+        font-size: 17px;
+    }
 }
